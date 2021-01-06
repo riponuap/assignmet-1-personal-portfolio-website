@@ -70,8 +70,8 @@ section {
 
 .half-width-2 {
   height: 20%;
-
-  margin-left: 5%;
+  float: left;
+  margin-right: 10%;
 }
 
 .half-width-2 img {
@@ -80,7 +80,30 @@ section {
 }
 
 .work-experience {
-  background-image: url(12.png);
-  background-position: right;
-  background-repeat: no-repeat;
+  background-color: rgba(128, 128, 128, 0.315);
+}
+
+h4 {
+  text-align: center;
+}
+h6 {
+  text-align: center;
+}
+.last-image {
+  height: 150px;
+}
+
+.contact-div {
+  height: 500px;
+  position: unset;
+  float: center;
+}
+.contact-div img {
+  height: 150px;
+}
+
+.first.div {
+  border: solid red;
+  height: 500px;
+  float: left;
 }
