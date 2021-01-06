@@ -1,6 +1,6 @@
 body {
   font-family: "Playfair Display", serif;
-  margin-top: 2%;
+  margin-top: 0%;
 }
 .first-link {
   float: right;
@@ -12,4 +12,29 @@ body {
   text-decoration: none;
   padding-inline: 1;
   text-size-adjust: auto;
+}
+
+span {
+  color: rgb(230, 110, 101);
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding: 2%;
+}
+
+#intro {
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 15px;
+  padding: 5%;
+}
+
+.first-section {
+  background-image: url(header-bg.png);
+  background-repeat: no-repeat;
+}
+section {
+  height: 500px;
 }
