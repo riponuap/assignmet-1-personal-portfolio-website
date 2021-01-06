@@ -71,7 +71,7 @@ section {
 .half-width-2 {
   height: 20%;
   float: left;
-  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .half-width-2 img {
@@ -93,17 +93,28 @@ h6 {
   height: 150px;
 }
 
-.contact-div {
-  height: 500px;
-  position: unset;
-  float: center;
-}
-.contact-div img {
-  height: 150px;
-}
-
 .first.div {
   border: solid red;
   height: 500px;
   float: left;
+}
+
+.lastone img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact.div {
+  float: left;
+  height: 20%;
+}
+
+.last-section {
+  background-image: url(Group_33094_1.png);
+  width: 50%;
+  background-position: center;
+}
+.last-section img {
+  width: 100%;
+  height: auto;
 }
